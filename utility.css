@@ -1,0 +1,17 @@
+/* User defined styling classes */
+.border{
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-items{
+    align-items: center;
+}

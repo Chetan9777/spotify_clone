@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container flex bg-black ">
+      <div class="left font">
+        <div class="home bg-grey border m-1 p-1 ">
+          <img src="./images/logo.svg" class="invert logo-padding" alt="logo" />
+          <ul>
+            <li><img src="./images/home.svg" class="invert" alt="home" />Home</li>
+            <li><img src="./images/search.svg" class="invert" alt="search" />Search</li>
+          </ul>
+        </div>
+      
+        <div class="library bg-grey border m-1 p-1">
+            <div class="heading flex">
+                <img src="./images/playlist.svg" class="invert ur-lib " alt="playlist.svg">
+                <h3 class="font">Your library</h3>
+                <img src="./images/add.svg" alt="add" class="invert ur-lib ">
+            </div>
+            <div class="songList">
+              <ul>
+                <!-- <li>
+                  <img src="./images/music.svg" alt="" class="invert">
+                  <div class="info">
+                    <div>Song name</div>
+                    <div>song artist</div>
+                  </div>
+                  <div class="play_now">
+                    <img src="./images/play_now.svg" alt="" class="invert">
+                  </div>
+                </li> -->
+              </ul>
+            </div>
+            <!-- <div class="footer flex">
+              <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+              <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+              <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+              <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+              <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+              <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy Center<span><a><div></div>
+            </div> -->
+        </div>
+        
+      </div>
+        
+      <div class="right font bg-grey border">
+          <div class="header flex">
+            <div class="nav invert">
+              <img src="./images/left.svg" alt="left">
+              <img src="./images/right.svg" alt="right">
+            </div>
+
+            <div class="buttons font">
+              <button class="b1">Sign up</button>
+              <button>Login</button>
+            </div>
+          </div>
+
+          <div class="spotifyPlaylist">
+            <h2 class="m-1">Spotify playlist</h1>
+            <div class="container flex flex-wrap">
+              <div class="card bg-grey m-1 p-1 ">
+                <div class="play">
+                  <img src="./images/play.svg" alt="play">
+                </div>
+                <img src="./images/happy_hits.jpg" alt="">
+                <h1>Happy Hits!</h1>
+                <p>Hits to boost your mood and fill you with happiness! </p>
+              </div>
+
+              <div class="card bg-grey m-1 p-1 ">
+                <div class="play">
+                  <img src="./images/play.svg" alt="play">
+                </div>
+                <img src="./images/calming.jpg" alt="">
+                <h1>Calming Acoustic</h1>
+                <p>Keep calm with instrumental acoustic tracks. </p>
+              </div>
+
+              <div class="card bg-grey m-1 p-1 ">
+                <div class="play">
+                  <img src="./images/play.svg" alt="play">
+                </div>
+                <img src="./images/pop.jpg" alt="">
+                <h1>Pop Rising</h1>
+                <p>Who's now and next in pop. Cover: PinkPantheress </p>
+              </div>
+
+              <div class="card bg-grey m-1 p-1 ">
+                <div class="play">
+                  <img src="./images/play.svg" alt="play">
+                </div>
+                <img src="./images/lofi.jpg" alt="">
+                <h1>lofi chills</h1>
+                <p>Lazy slow lofi beats for laid-back moments.</p>
+              </div>
+
+              <div class="card bg-grey m-1 p-1 ">
+                <div class="play">
+                  <img src="./images/play.svg" alt="play">
+                </div>
+                <img src="./images/indie.jpg" alt="">
+                <h1>Indie Rock Hits</h1>
+                <p>True indie rock hits. Cover: Phoebe Bridgers </p>
+              </div>
+
+            </div>
+
+            <div class="playbar">
+
+              <div class="songinfo">
+
+              </div>
+
+              <div class="song_button">
+                <img src="./images/prev.svg" alt="prev_song" class="invert">
+                <img src="./images/play1.svg" alt="play_song" class="invert">
+                <img src="./images/next.svg" alt="next_song" class="invert">
+              </div>
+              
+              <div class="songtime">
+
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
